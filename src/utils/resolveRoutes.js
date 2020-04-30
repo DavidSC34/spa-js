@@ -7,3 +7,5 @@ const resolveRoutes = (route) => {
   }
   return `/${route}`; //=> /about
 };
+
+export default resolveRoutes;
